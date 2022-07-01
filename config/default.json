@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://ishaan:abc12345@billingsystem.hqemx.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "mytoken"
+}
