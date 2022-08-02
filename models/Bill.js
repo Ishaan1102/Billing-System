@@ -13,9 +13,6 @@ const BillSchema = new Schema({
     name : {
         type : String
     },
-    avatar : {
-        type : String
-    },
     dueDate : {
         type : Date,
         required : true
