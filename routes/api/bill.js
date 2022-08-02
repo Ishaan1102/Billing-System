@@ -30,7 +30,6 @@ router.post('/',
             const newBill = new Bill({
                 text : req.body.text,
                 name : user.name,
-                avatar : user.avatar,
                 user : req.user.id
             });
             const bill = await newBill.save();
